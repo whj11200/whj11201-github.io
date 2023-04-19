@@ -1,0 +1,142 @@
+
+    body{
+        padding: 0;
+        margin: 0;
+        padding-top: 40px;
+    }
+
+    p{
+        margin-left: 10px;
+        margin-top: 10px;
+        color: aliceblue;
+    }
+
+    header {
+        background-color: black;
+        z-index: 999;
+        position: absolute;
+        top: 0;
+        height: 40px;
+        width: 1920px;
+        display: flex;
+    }
+
+    aside{
+        
+        background-color: rgb(44, 44, 44);
+        width: 400px;
+        height: 889px;
+        display: flex;
+        
+    }
+
+
+    ul {
+        list-style: none;
+    }
+
+    section{
+    
+    background-color: #111;
+    width: 1625px;
+    height: 990px;
+    position: fixed;
+    top: 40px;
+    right: 0px;
+    color: aliceblue;
+    }
+
+    a{
+        
+        color: rgb(218, 218, 218);
+        font-size: 20px;
+        text-decoration: none;
+    }
+    a:hover{
+        color: rgb(255, 255, 255);
+        
+        
+    }
+
+    li {
+        margin-top: 50px;
+        
+
+    }
+
+    div{
+        margin-top: 100px;
+        margin-right: 10px;
+        width: 250px;
+    }
+
+
+    c:hover{
+        color: rgb(255, 255, 255);
+    }
+
+    d {
+        
+        width: 350px;
+        color: aliceblue;
+        font-size: 30px;
+    }
+    nav{
+        margin-top: 40px;
+        margin-left: 20px;
+        display: flex;
+    }
+
+    .find-btn{
+        
+        
+        color: white;
+        margin-left: 20px;
+        background-color: rgb(40, 162, 243);
+        height: 44px;
+        width: 150px;
+        border-radius: 5px;
+        font-size: 15px;
+        font-family: "Bahnschrift"; 
+    }
+
+    .find-btn1{
+        color: white;
+        margin-left: 1100px;
+        background-color: rgb(88, 88, 88);
+        height: 44px;
+        width: 150px;
+        border-radius: 5px;
+        font-size: 15px;
+        font-family: "Bahnschrift"; 
+    }
+
+
+
+    img:hover {
+        transform: scale(1.1);
+        z-index: 1;
+        position: relative;
+        background-color: aliceblue;
+    }
+
+    o{
+        text-align: center;
+        width: 1510px;
+        height: 100px;
+        margin-top: 70px;
+        position: absolute;
+        display: inline-block;
+        padding: 1rem;
+        background: linear-gradient(30deg,#48718b,#7ecfb349) !important;
+        font-size: 4rem;
+        -webkit-background-clip: text !important;
+        color: transparent;
+        cursor: pointer;
+    }
+
+    o:hover{
+        background: linear-gradient(40deg,#ffd86f,#fc6262) !important;
+    -webkit-background-clip: text !important;
+    color: transparent;
+    }

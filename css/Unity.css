@@ -1,0 +1,856 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: rgb(223, 222, 222);
+    width: 100%;
+    height: 22px;
+    position: relative;
+}
+
+header2 {
+    background-color: black;
+    width: 1000px;
+}
+
+button {
+    width: 50px;
+    margin-left: 1515px;
+    color: rgb(10, 1, 1);
+    position: absolute;
+    border: none;
+    background-color: transparent;
+}
+
+button:hover {
+    color: rgb(129, 129, 129);
+}
+
+.flex {
+    margin: auto;
+}
+
+button2 {
+    width: 50px;
+    margin-left: 1500px;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    border: none;
+}
+
+button2:hover {
+    color: gray;
+
+}
+
+button3 {
+    width: 50px;
+    margin-left: 1470px;
+    align-items: center;
+    background-color: rgb(223, 222, 222);
+    color: rgb(10, 1, 1);
+    position: absolute;
+    border: none;
+    border-radius: 5px;
+}
+
+button3:hover {
+    color: gray;
+}
+
+button4 {
+    background-color: rgb(0, 0, 0);
+    width: 50px;
+    height: 200px;
+    margin-left: 23px;
+    border: none;
+
+}
+
+button5 {
+
+    margin-left: 830px;
+
+
+}
+
+button6 {
+    width: 50px;
+
+    margin: 1px;
+}
+
+button7 {
+    width: 50px;
+
+}
+
+
+button9 {
+
+    float: right;
+    margin-right: 0;
+}
+
+
+
+img {
+    background-color: rgb(90, 89, 89);
+}
+
+img:hover {
+    background-color: rgb(191, 192, 194);
+}
+
+header2 {
+    background-color: rgb(53, 53, 53);
+    width: 1920px;
+    height: 25px;
+    color: white;
+    position: absolute;
+
+}
+
+h6 {
+    font-family: "Century Gothic";
+    font-size: 15px;
+    position: absolute;
+}
+
+ul {
+    background-color: rgb(255, 255, 255);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+li a:hover {
+    background-color: rgb(214, 214, 214);
+    color: black;
+}
+
+.img {
+    width: 50%;
+    height: 50%;
+    margin-top: 50px;
+    background-color: black;
+}
+
+section {
+    background-color: black;
+    width: 850px;
+    height: 426px;
+    position: absolute;
+    top: 78px;
+}
+
+section.my-section .my-section_box img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+section:nth-of-type(2) {
+    width: 850px;
+    height: 400px;
+    position: absolute;
+    top: 504px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 50px;
+}
+
+section:nth-of-type(3) {
+    background-color: rgb(80, 80, 80);
+    width: 500px;
+    height: 426px;
+    position: absolute;
+    top: 78px;
+    left: 987px;
+    transform: translateX(-27.5%);
+    background-size: 100% auto;
+}
+
+section:nth-of-type(4) {
+    background-color: rgb(80, 80, 80);
+    width: 500px;
+    height: 425px;
+    position: absolute;
+    top: 504px;
+    left: 987px;
+    transform: translateX(-27.5%);
+    background-size: 100% auto;
+}
+
+section:nth-of-type(5) {
+    background-color: rgb(80, 80, 80);
+    width: 570px;
+    height: 851px;
+    position: absolute;
+    top: 78px;
+    left: 1506px;
+    transform: translateX(-27.5%);
+    background-size: 100% auto;
+}
+
+.button11 {
+    color: white;
+    background-color: rgb(80, 79, 79);
+    
+}
+.button11:active,.button11:focus {
+    background: linear-gradient(to bottom, rgb(49, 138, 255) 1%, rgb(53, 53, 53) 90%);
+}
+
+
+nav {
+    background-color: rgb(41, 40, 40);
+}
+.scene {
+    background-color: rgb(80, 79, 79);
+    height: 25px;
+}
+.scene2{
+    background-color: rgb(80, 79, 79);
+    height: 25px;
+}
+.nav2 {
+    background-color: rgb(80, 79, 79);
+    height: 25px;
+}
+
+#button12 {
+    max-width: 1px;
+    
+    background-color: rgb(80, 79, 79);
+    margin-left: 20px;
+    
+}
+#button13 {
+    max-width: 1px;
+    height: 20px;
+    background-color: rgb(80, 79, 79);
+    margin-left: 60px;
+    
+}
+#button14 {
+    max-width: 1px;
+    height: 20px;
+    background-color: rgb(66, 65, 65);
+    margin-left: 100px;
+    font-size: 20px;
+    color: rgb(110, 110, 110);
+}
+#button15{
+    max-width: 1px;
+    height: 25px;
+    margin-left: 120px;
+    
+}
+
+#button16{
+    max-width: 1px;
+    height: 20px;
+    background-color: rgb(66, 65, 65);
+    margin-left: 153px;
+    font-size: 20px;
+    color: aliceblue;
+}
+#button17{
+    max-width: 1px;
+    height: 20px;
+    background-color: rgb(66, 65, 65);
+    margin-left: 530px;
+    font-size: 20px;
+    color: rgb(190, 191, 192);
+}
+#button18{
+    max-width: 1px;
+    height: 20px;
+    background-color: rgb(66, 65, 65);
+    margin-left: 555px;
+    font-size: 20px;
+    color: rgb(190, 191, 192);
+}
+#button19{
+    max-width: 1px;
+    height: 20px;
+    background-color: rgb(66, 65, 65);
+    margin-left: 596px;
+    font-size: 20px;
+    color: rgb(190, 191, 192);
+}
+#button20{
+    max-width: 1px;
+    height: 15px;
+    background-color: rgb(66, 65, 65);
+    margin-left: 645px;
+    font-size: 20px;
+    color: rgb(190, 191, 192);
+}
+#button21{
+    max-width: 1px;
+    height: 10px;
+    background-color: rgb(66, 65, 65);
+    margin-left: 680px;
+    
+    color: rgb(190, 191, 192);
+}
+
+#button22{
+    max-width: 1px;
+    height: 15px;
+    background-color: rgb(66, 65, 65);
+    margin-left: 720px;
+    font-size: 20px;
+    color: rgb(190, 191, 192);
+}
+#button23{
+    max-width: 1px;
+    height: 15px;
+    background-color: rgb(66, 65, 65);
+    margin-left: 760px;
+    font-size: 20px;
+    color: rgb(190, 191, 192);
+}
+#button24{
+    max-width: 1px;
+    height: 15px;
+    background-color: rgb(66, 65, 65);
+    margin-left: 810px;
+    font-size: 20px;
+
+}
+#button24:hover{
+
+    background-color: rgb(236, 0, 0);
+
+}
+.button25{
+    max-width: 1px;
+    height: 15px;
+    background-color: rgb(66, 65, 65);
+    margin-left: 0;
+    font-size: 20px;
+    color: rgb(190, 191, 192);
+}
+.my-image:hover {
+    background-color: aliceblue;
+}
+#button26{
+    max-width: 1px;
+    height: 20px;
+    background-color: rgb(66, 65, 65);
+    margin-left: 75px;
+    font-size: 20px;
+    color: rgb(190, 191, 192);
+}
+#button27{
+    max-width: 1px;
+    height: 20px;
+    background-color: rgb(66, 65, 65);
+    margin-left: 172    px;
+    font-size: 20px;
+    color: rgb(190, 191, 192);
+}
+#button28{
+    max-width: 1px;
+    height: 20px;
+    background-color: rgb(66, 65, 65);
+    margin-left: 172px;
+    font-size: 20px;
+    color: rgb(190, 191, 192);
+}
+#button29{
+    max-width: 1px;
+    height: 20px;
+    background-color: rgb(66, 65, 65);
+    margin-left: 342px;
+    font-size: 20px;
+    color: rgb(190, 191, 192);
+}
+#button30{
+    max-width: 1px;
+    height: 20px;
+    background-color: rgb(66, 65, 65);
+    margin-left: 624px;
+    font-size: 20px;
+    color: rgb(190, 191, 192);
+}
+#button31{
+    max-width: 1px;
+    height: 20px;
+    background-color: rgb(66, 65, 65);
+    margin-left: 767px;
+    font-size: 20px;
+    color: rgb(190, 191, 192);
+}
+#button32{
+    max-width: 1px;
+    height: 20px;
+    background-color: rgb(66, 65, 65);
+    margin-left: 824px;
+    font-size: 20px;
+    color: rgb(190, 191, 192);
+}
+#button33{
+    max-width: 1px;
+    height: 20px;
+    background-color: rgb(66, 65, 65);
+    margin-left: 29px;
+    font-size: 20px;
+    color: rgb(190, 191, 192);
+}
+input{
+    width: 320px;
+    background-color: gray;
+}
+#in{
+    width: 435px;
+    background-color: gray;
+}
+
+#button34{
+    max-width: 1px;
+    height: 20px;
+    background-color: rgb(66, 65, 65);
+    margin-left: 355px;
+    font-size: 20px;
+    color: rgb(190, 191, 192);
+}
+#button35{
+    max-width: 1px;
+    height: 20px;
+    background-color: rgba(66, 65, 65);
+    margin-left: 380px;
+    font-size: 20px;
+    color: rgb(190, 191, 192);
+}
+#button36{
+    max-width: 1px;
+    height: 20px;
+    background-color: rgb(66, 65, 65);
+    margin-left: 407px;
+    font-size: 20px;
+    color: rgb(190, 191, 192);
+}
+#button37{
+    max-width: 1px;
+    height: 20px;
+    background-color: rgb(66, 65, 65);
+    margin-left: 433px;
+    font-size: 20px;
+    color: rgb(190, 191, 192);
+}
+#button38{
+    max-width: 1px;
+    height: 20px;
+    background-color: rgb(66, 65, 65);
+    margin-left: 460px;
+    font-size: 20px;
+    color: rgb(190, 191, 192);
+}
+#button40{
+    max-width: 30px;
+    margin-left: 470px;
+    
+    
+}
+#button41{
+    max-width: 1px;
+    height: 20px;
+    background-color: rgb(66, 65, 65);
+    margin-left: 4px;
+    font-size: 20px;
+    color: rgb(190, 191, 192);
+}
+#button42{
+float: left;
+
+}
+#button45{
+   width: 10px;
+}
+
+
+#f {
+    text-align: right;
+    margin-left: 0px;
+    background-color: rgb(76, 76, 241);
+    width: 120px;
+    color: rgb(255, 255, 255);
+}
+
+#d {
+    font-size: 13px;
+    margin-left: 55px;
+    width: 100px;
+    color: rgb(255, 255, 255);
+}
+
+#d:hover{
+color: rgb(156, 156, 156);
+}
+#b {
+    font-size: 13px;
+    margin-left: 55px;
+    width: 100px;
+    color: rgb(255, 255, 255);
+}
+#b:hover{
+    color: rgb(156, 156, 156);
+}
+.project {
+    background-color: rgb(80, 80, 80);
+    
+    width: 500px;
+    height: 380px;
+}
+#id{
+    width: 5px;
+    color: aliceblue;
+}
+
+#a{
+    height: 20px;
+    width: 140px;
+    color: white;
+    float: left;
+}
+
+#c {
+    
+    top: 50px;
+    margin-left: 150px;
+    color: aliceblue;
+    position: absolute;
+    display: none;
+}
+#a:hover ~ #c {
+    display: block;
+}
+#aoa{
+    
+    height: 20px;
+    width: 140px;
+    color: white;
+    text-align: center;
+}
+#good{
+    top: 50px;
+    margin-left: 150px;
+    color: aliceblue;
+    position: absolute;
+    display: none;
+}
+#aoa:hover ~ #good {
+    display: block;
+}
+#non{
+    height: 20px;
+    width: 140px;
+    color: white;
+    text-align: center;
+}
+#and{
+    
+    top: 50px;
+    margin-left: 150px;
+    color: aliceblue;
+    position: absolute;
+    display: none;
+}
+#non:hover ~ #and {
+    display: block;
+}
+#qoq {
+    height: 20px;
+    width: 140px;
+    color: white;
+    text-align: center;
+}
+#last{
+    top: 50px;
+    margin-left: 150px;
+    color: aliceblue;
+    position: absolute;
+    display: none;
+}
+#q{
+    top: 0;
+}
+#qoq:hover ~ #last{
+    display: block;
+}
+#g{
+    height: 20px;
+    width: 140px;
+    color: white;
+    float: left;
+}
+#j{
+    top: 50px;
+    margin-left: 150px;
+    color: aliceblue;
+    position: absolute;
+    display: none;
+}
+#g:hover ~ #j {
+    display: block;
+}
+#z{
+    width: 140px;
+    color: white;
+    height: 20px;
+    text-align: center;
+}
+#Unity3{
+    width: 140px;
+    color: white;
+    height: 20px;
+    text-align: center;
+}
+
+
+#wow{
+    top: 50px;
+    margin-left: 150px;
+    color: white;
+    position: absolute;
+    display: none;
+}
+#Unity3:hover ~ #wow{
+    display: block;
+}
+#y{
+    top: 50px;
+    margin-left: 150px;
+    color: white;
+    position: absolute;
+    display: none;
+}
+#z:hover ~ #y {
+    display: block;
+}
+#Unity4{
+    width: 140px;
+    color: white;
+    height: 20px;
+    text-align: center;
+}
+#lol{
+    top: 50px;
+    margin-left: 150px;
+    color: white;
+    position: absolute;
+    display: none;
+}
+#Unity4:hover ~ #lol {
+    display: block;
+}
+#Unity5{
+    width: 140px;
+    color: white;
+    height: 20px;
+    text-align: center;
+}
+#kok{
+    top: 50px;
+    margin-left: 150px;
+    color: white;
+    position: absolute;
+    display: none;
+}
+#Unity5:hover ~ #kok {
+    display: block;
+}
+#Unity6{
+    width: 140px;
+    color: white;
+    height: 20px;
+    text-align: center;
+}
+#joj{
+    top: 50px;
+    margin-left: 150px;
+    color: white;
+    position: absolute;
+    display: none;
+}
+#Unity6:hover ~ #joj {
+    display: block;
+}
+
+#Unity7{
+    width: 140px;
+    color: white;
+    height: 20px;
+    text-align: center;
+}
+#hoh{
+    top: 50px;
+    margin-left: 150px;
+    color: white;
+    position: absolute;
+    display: none;
+}
+#Unity7:hover ~ #hoh {
+    display: block;
+}
+#Unity8{
+    width: 140px;
+    color: white;
+    height: 20px;
+    text-align: center;
+}
+#gog{
+    top: 50px;
+    margin-left: 150px;
+    color: white;
+    position: absolute;
+    display: none;
+}
+#Unity8:hover ~ #gog {
+    display: block;
+}
+#nope {
+    background-color: rgb(34, 34, 34);
+    color: aliceblue;
+}
+
+
+#check{
+    top: 0;
+    width: 50px;
+    background-color: rgb(59, 59, 59);
+    color: black;
+}
+#check2{
+    height: 10px;
+    width: 20px;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: black;
+}
+.news{
+    background-color: rgb(65, 63, 63);;
+}
+#newsname {
+    margin-left: 80px;
+    color: aliceblue;
+}
+.newsname2{
+    width: 50px;
+    height: 100%;
+    background-color: black;
+    display: flex;
+}
+#h2{
+    font-size: 20px;
+    color: aliceblue;
+    
+}
+#wrap {
+    display: inline-block;
+    }
+.imgHoverEvent:hover .imgBox {
+    background-size: 110% 110%;
+}
+.hoverBox {
+    display: none;
+    position: absolute;
+    top: 73px;
+    left: 0;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.imgHoverEvent:hover .hoverBox {
+    display: block;
+}
+#wrap{
+    height: 300px;
+}
+.event7 .hoverBox span{
+        border: 4px solid #ccc; position: absolute; top: 380px; transform: translateY(-50%); height: 5px; width: 90%; left: 5%;transition: 0.5s;}
+        .event7 .hoverBox span p{ opacity: 0; }
+        .event7:hover .hoverBox span{animation: event7Ani 0.8s linear 1; height: 150px;}
+        .event7:hover .hoverBox span p{animation: event7Ani2 0.8s linear 1; opacity: 1;}
+
+        @keyframes event7Ani{
+            0%{height: 30px;}
+            80%{height: 150px;}
+            100%{height: 150px;;}
+        }
+        @keyframes event7Ani2{
+            0%{opacity: 0;}
+            80%{opacity: 0;}
+            100%{opacity: 1;}
+        }
+        .nawsname2 .event7 .imgBox img {
+            filter: grayscale(100%);
+            transition: 0.5s;
+        }
+        .nawsname2 .event7 .imgBox img  .hoverBox{
+            filter: grayscale(1%);
+            transition: 0.5s;
+        }
+h2{
+    
+    color: #fff;
+}
+h4{
+    color: #ccc;
+}
+.p3{
+    color: rgb(255, 255, 255);
+}
+.p4{
+    color: rgb(0, 0, 0);
+}
+
+
+.button90 {
+    
+    text-align: center;
+    color: white;
+    background-color: rgb(48, 46, 46);
+    height: 30px;
+    width: 260px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: "Bahnschrift"; 
+    margin-left: 30%;
+    margin-top: 130px;
+}
+
+.button90:hover{
+    background-color: #8b8989;
+    color: #fff;
+}

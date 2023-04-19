@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unitycode</title>
+    <link rel="stylesheet" href="./css/Cmd.css">
+</head>
+<header>
+    <ul id="headermenu">
+        <li id="button0"><a href="Unitymain.html"><img src="img/logo3.png"></a></li>
+        <li id="button1"><a href="Unitying.html">Unity</a></li>
+        <li id="button2"><a href="Cmd.html">MakeTank</a></li>
+        <li id="button3"><a href="AssetStore.html">Unistore</a></li>
+        <li id="button4"><a href="community.html">Unitmmunity</a></li>
+        <li id="button5"><a href="Youtuber.html">UniTube</a></li>
+    </ul>
+</header>
+<section>
+    <div class="tankfly" style="background-image: url(img/Tankfly.png); width: 1910px; height: 800;">
+        <h3 id="h3">누구나 쉽게 탱크를 만들어 적들을 날려버리자!</h3>
+    </div>
+    <div class="name">
+
+
+        <h1 id="h1">1. Tank 모델링을 가져온다</h1>
+        
+<div class="imgHoverEvent event8">
+    <div class="imgBox"><a href="https://assetstore.unity.com/packages/3d/vehicles/land/tank-3d-model-225955"><img src="img/Tank.png" style="width: 500PX; height: 200px;"> </div></a>
+    <div class="hoverBox">
+        <span class="span2">
+            <p class="p2">링크를 누르면 사이트로 이동</p>
+        </span>
+        
+    </div>
+    </div> 
+    
+</div>
+<div>
+
+</div>
+<h1 id="lol">2.맵을 만들어준다</h1>
+<div id="kekekekekekek">
+<img src="img/treeing2.png" id="Treeing">
+<img src="img/treeing3.png" id="Treeing2">
+<img src="img/treeing4.png" id="Treeing3">
+<img src="img/treeing5.png" id="Treeing4">
+</div>
+
+<div class="mom">
+    <h1 id="non">4. 탱크가 움직일 수 있게 스크립트를 작성해준다</h1>
+    
+    <code class="csharp"><pre>
+        public class PlayerMove : MonoBehaviour { 
+        
+            public float speed = 10.0f;
+            public float rotationSpeed = 100.0f;
+        
+            void Update()
+            {
+                float translation = Input.GetAxis("Vertical") * speed;
+                float rotation = Input.GetAxis("Horizontal") * rotationSpeed;
+                translation *= Time.deltaTime;
+                rotation *= Time.deltaTime;
+                transform.Translate(0, 0, translation);
+                transform.Rotate(0, rotation, 0);
+            }
+        }
+            </code>
+        </pre>
+        <img src="img/treeing6.png" id="script">
+        <img src="img/treeing7.png" id="scripts">
+        <img src="img/treeing8.png" id="scriptss">
+        
+        <h1 id="noa">5. 카메라 회전시켜 포구를 회전해보자 </h1>
+        <code class="csharps">
+            <pre>
+            public class MainCameraMove : MonoBehaviour
+            {
+                public float sensitivity = 100f; // 카메라 회전 감도
+            
+                float rotationX = 50f; // X축 회전 각도
+            
+                void Update()
+                {
+                    // 마우스 이동 감지하여 카메라 회전
+                    float mouseX = Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
+                    float mouseY = Input.GetAxis("Mouse Y") * sensitivity * Time.deltaTime;
+            
+                    rotationX -= mouseY;
+                    rotationX = Mathf.Clamp(rotationX, -90f, 90f);
+            
+                    transform.localRotation = Quaternion.Euler(rotationX, 0f, 0f);
+                    transform.parent.Rotate(Vector3.up * mouseX);
+                }
+            }
+                </code>
+            </pre>
+            <img src="img/treeing9.png" id="scriptsss">
+            <img src="img/Treeing10.png" id="scriptsss">
+            <div><h1 id="last">5. 적들을 생성해보자 </h1></div>
+            <img src="img/lasttank.png" id="scriptssss">
+            <img src="img/lasttank2.png" id="scriptsssss">
+            <img src="img/lasttank3.png" id="scriptsssss">
+            <div><h1 id="why">6.포탄을 날려보자!</h1>
+                <div id="noo">
+                
+                    <pre id="not">
+                        public class Fire : MonoBehaviour
+                        {
+                            public GameObject projectilePrefab; // 발사체 프리팹
+                            public Transform launchPosition; // 발사 위치
+                            public float launchForce = 10f; // 발사 속도
+                        
+                            void Update()
+                            {
+                                // 마우스 왼쪽 버튼을 누르면 발사
+                                if (Input.GetMouseButtonDown(0))
+                                {
+                                    LaunchProjectile();
+                                }
+                            }
+                        
+                            void LaunchProjectile()
+                            {
+                                // 프리팹을 복제하여 발사체 생성
+                                GameObject projectile = Instantiate(projectilePrefab, launchPosition.position, launchPosition.rotation);
+                        
+                                // 발사체에 물리 엔진 적용
+                                Rigidbody rb = projectile.GetComponent<Rigidbody>();
+                                rb.AddForce(launchPosition.forward * launchForce, ForceMode.Impulse);
+                            }
+                        }
+                        </code>
+                    </pre>
+<img src="img/lasttank10.png" id="cas">
+<img src="img/lasttank11.png">
+
+</div>
+
+    <img src="img/gg.png" id="nono">
+    <h1 id="wown">완성</h1>
+</section>
+
+<footer>
+    <div id="didi">
+<p>우혁제</p>
+<p>유니티 초보자</p>
+<p>whj1120@naver.com</p>
+<p>UnityNewbe</p>
+</div>
+</footer>
+</body>
+</html>

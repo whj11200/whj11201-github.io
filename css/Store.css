@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 1920px;
+    height: 1080px;
+}
+.navbar {
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    width: 1920px;
+    
+}
+
+.navbar img {
+    height: 50px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.navbar a.logo {
+    
+    margin-left: 400px;
+}
+input{
+    background-color: rgb(78, 77, 77);
+    margin-right: 90px;
+    width: 900px;
+    height: 40px;
+    border-radius: 10px;
+    color: #fff;
+    border-color: #fff;
+}
+
+#icon76{
+    border-radius: 50px;
+}
+#icon76:hover{
+    border-radius: 50px;
+    background-color: rgba(240, 248, 255, 0.219);
+}
+
+#icon77:hover{
+    background-color: rgba(240, 248, 255, 0.219);
+}
+section{
+    background-color: aliceblue;
+    height: 1000px;
+    width: 1920px;
+}
+.navbar2{
+    width: 1920px;
+    height: 50px;
+    background-color: black;
+    text-align: center;
+}
+#menu{
+    margin-left: 900px;
+    height: 25px;
+}
+#dd{
+    
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    
+}
+
+#aa{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    margin-left: 00px;
+    
+}
+#bb{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    
+}
+#ll{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+}
+#ff{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+}
+.center {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.center li {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+#object{
+    margin-left: 400px;
+}
+#img2 {
+    float: left; 
+    margin-left: 400px; 
+}
+
+#h22 {
+    margin-top: 0;
+}
+#h23{
+    margin-left: 1120px;
+    
+    font-size: 50px;
+}
+#myasset {
+    margin-top: 50px;
+    height: 50px;
+    width: 300px;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(60, 154, 241);
+    border: none;
+    
+}
+#myasset:hover{
+    background-color: rgb(60, 235, 241);
+}
+#myasset {
+    margin-top: 50px;
+    height: 50px;
+    width: 300px;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(60, 154, 241);
+    border: none;
+    
+}
+#myasset2 {
+    margin-top: 50px;
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    
+    color: aqua;
+    border: solid 5px;
+}
+#mm{
+    margin-top: 50px;
+    height: 50px;
+    width: 50px;
+    border: solid 1px blue;
+    color: aqua;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 30px;
+    
+}
+#myasset2:hover{
+    color: rgb(76, 0, 255);
+    color: #2600ff;
+}
+#sds p{
+    margin-bottom: 10px;
+}
+b{
+    color: #2600ff;
+}
+#free{
+    margin-top: 100px;
+    text-align: center;
+}
+#freee{
+    margin-top: 10px;
+    text-align: center;
+}
+#moma{
+    width: 200px;
+    height: 50px;
+    margin-left: 50px;
+}
+#lolololol img{
+    margin-right: 5px;
+    
+}
+#lolololol{
+    text-align: center;
+}
+#video2:hover {
+    transform: scale(1.2); 
+}
+#video3:hover {
+    transform: scale(1.2); 
+}
+#video4:hover {
+    transform: scale(1.2); 
+}
+#video5:hover {
+    transform: scale(1.2); 
+}

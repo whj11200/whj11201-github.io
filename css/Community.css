@@ -1,0 +1,292 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+html{
+    width: 1920px;
+    height: 1080px;
+}
+
+nav {
+    background-color: #030303; /* Nav의 배경색 */
+    padding: 10px;
+}
+nav:hover{
+    background-color: #000000ec;
+}
+
+ul {
+    list-style: none; /* 리스트 아이템의 기본 스타일 제거 */
+    margin: 0;
+    padding: 0;
+    display: flex; /* 리스트 아이템을 가로로 정렬하기 위해 Flexbox를 사용 */
+}
+
+li {
+    margin-right: 20px; /* 리스트 아이템 간의 간격 */
+    margin-top: 10px;
+    color: #fff;
+
+}
+
+a {
+    color: #fff; 
+    text-decoration: none; 
+    font-size: 18px;
+    font-weight: bold; 
+    align-items: center;
+    margin-left: 51px;
+    
+}
+section{
+    background-color: rgb(0, 2, 2);
+    width: 1920px;
+    height: 1080px;
+}
+
+
+#newss {
+  position: relative; /* 부모 요소를 상대 위치로 설정 */
+display: flex;
+justify-content: center;
+align-items: center;
+height: 900px;
+position: relative;
+}
+#newss img{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 900px;
+}
+h1 {
+color: #fff;
+  position: absolute; /* h1과 h4를 절대 위치로 설정 */
+top: 10px;
+left: 450px;
+
+}
+
+
+#hi{
+    color: #fff;
+}
+#sos{
+    margin-top: 47px;
+    color: rgb(59, 148, 226);
+    font-size: 20px;
+    left: 300px;
+}
+#sos2{
+    margin-top: 90px;
+    color: rgb(59, 148, 226);
+    font-size: 20px;
+    left: 300px;
+}
+#sos3{
+    margin-top: 130px;
+    color: rgb(59, 148, 226);
+    font-size: 20px;
+    left: 300px;
+}
+
+#sos4{
+    margin-top: 170px;
+    color: rgb(59, 148, 226);
+    font-size: 20px;
+    left: 300px;
+}
+#sos5{
+    margin-top: 210px;
+    color: rgb(59, 148, 226);
+    font-size: 20px;
+    left: 270px;
+}
+#sos6{
+    margin-top: 250px;
+    color: rgb(59, 148, 226);
+    font-size: 20px;
+    left: 470px;
+}
+#sos7{
+    margin-top: 295px;
+    color: rgb(59, 148, 226);
+    font-size: 20px;
+    left: 470px;
+}
+#sos8{
+    margin-top: 340px;
+    color: rgb(59, 148, 226);
+    font-size: 20px;
+    left: 470px;
+}
+#sos9{
+    margin-top: 450px;
+    color: white;
+    font-size: px;
+    left: 435px;
+}
+#sos10{
+    margin-top: 490px;
+    color: rgb(59, 148, 226);
+    font-size: 20px;
+    left: 370px;
+}
+#sos11{
+    margin-top: 530px;
+    color: rgb(59, 148, 226);
+    font-size: 20px;
+    left: 430px;
+
+}
+
+#sos12{
+    margin-top: 330px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    left: 90px;
+    font-size: 30px;
+}
+#sos13{
+    margin-top: 370px;
+    color: rgb(59, 148, 226);
+    font-size: 20px;
+    left: 30px;
+}
+#sos14{
+    margin-top: 410px;
+    color: rgb(59, 148, 226);
+    font-size: 20px;
+    left: 30px;
+}
+#sos15{
+    margin-top: 450px;
+    color: rgb(59, 148, 226);
+    font-size: 20px;
+    left: 60px;
+}
+#sos16{
+    margin-top: 600px;
+    color: rgb(255, 255, 255);
+    left: 150px;
+    font-size: 30px;
+}
+#sos17{
+    margin-top: 640px;
+    color: rgb(59, 148, 226);
+    font-size: 20px;
+    left: 60px;
+}
+#sos18{
+    margin-top: 680px;
+    color: rgb(59, 148, 226);
+    font-size: 20px;
+    left: 75px;
+}
+#sos19{
+    margin-top: 720px;
+    color: rgb(59, 148, 226);
+    font-size: 20px;
+    left: 135px;
+}
+#sos20{
+    margin-top: 800px;
+    color: rgb(255, 255, 255);
+    left: 400px;
+    font-size: 30px;
+}
+#sos21{
+    margin-top: 840px;
+    color: rgb(59, 148, 226);
+    font-size: 20px;
+    left: 325px;
+}
+#sos22{
+    margin-top: 720px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    left: 1200px;
+}
+#sos23{
+    margin-top: 760px;
+    color: rgb(59, 148, 226);
+    font-size: 20px;
+    left: 1150px;
+}
+#sos24{
+    margin-top: 800px;
+    color: rgb(59, 148, 226);
+    font-size: 20px;
+    left: 1145px;
+}
+#sos25{
+    margin-top: 840px;
+    color: rgb(59, 148, 226);
+    font-size: 20px;
+    left: 1150px;
+}
+#sos26{
+    margin-top: 500px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    left: 1500px;
+}
+#sos27{
+    margin-top: 540px;
+    color: rgb(59, 148, 226);
+    font-size: 20px;
+    left: 1430px;
+}
+#sos28{
+    margin-top: 580px;
+    color: rgb(59, 148, 226);
+    font-size: 20px;
+    left: 1420px;
+}
+#sos29{
+    margin-top: 620px;
+    color: rgb(59, 148, 226);
+    font-size: 20px;
+    left: 1438px;
+}
+#sos30{
+    margin-top: 660px;
+    color: rgb(59, 148, 226);
+    font-size: 20px;
+    left: 1438px;
+}
+#sos31{
+    margin-top: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    left: 1400px;
+}
+#sos32{
+    margin-top: 140px;
+    color: rgb(59, 148, 226);
+    font-size: 20px;
+    left: 1290px;
+}
+#sos33{
+    margin-top: 180px;
+    color: rgb(59, 148, 226);
+    font-size: 20px;
+    left: 1320px;
+}
+#sos34{
+    margin-top: 220px;
+    color: rgb(59, 148, 226);
+    font-size: 20px;
+    left: 1335px;
+}
+#sos50{
+    margin-left: 280px;
+    margin-top: 90px;
+    color: #fff;
+}
+footer{
+    width: 1920px;
+    height: 180px;
+    background-color: gray;
+}

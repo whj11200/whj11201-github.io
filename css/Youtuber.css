@@ -1,0 +1,174 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+html{
+    width: 1920px;
+    height: 1080px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #050505;
+    color: #fff;
+    padding: 10px 20px;
+}
+.logo a {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none; 
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav li {
+    margin: 0 10px;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 1920px;
+    height: 1080px;
+}
+
+section {
+    background-color: black;
+    width: 980px;
+    height: 1100px;
+    color: #fff;
+}
+
+#section2 {
+    border-color: soild grey;
+}
+input{
+    background-color: rgb(34, 34, 34);
+    margin-right: 90px;
+    width: 350px;
+    height: 25px;
+    border-radius: 30px;
+    color: #fff;
+    border-color: #fff;
+}
+#input2{
+    background-color: rgb(34, 34, 34);
+    margin-right: 90px;
+    width: 350px;
+    height: 25px;
+    border-radius: 30px;
+    color: #fff;
+    border-color: #fff;
+    top: 5px;
+}
+#icon{
+    background-color: #050505;
+    color: #050505;
+    
+    
+}
+
+
+#icon2{
+    background-color: #050505;
+    color: #050505;
+}
+
+#icon4{
+    margin-right: 80px;
+}
+#h2h{
+    display: inline-block; 
+    vertical-align: top;
+    margin-top:50px;
+}
+#nono{
+    display: inline-block; 
+    vertical-align: middle;
+}
+#h2j{
+    
+display: inline-block; 
+vertical-align: top;
+margin-top: 90px;
+position: absolute;
+left: 300px;
+}
+#h2k{
+display: inline-block; 
+vertical-align: top;
+margin-top: 90px;
+position: absolute;
+left: 1280px;
+}
+#study{
+    margin-left: 80px;
+}
+#done{
+    margin-left: 5px;
+    background-color: #050505;
+}
+#h23{
+    margin-left: 50px;
+}
+#video1{
+    margin: 0;
+}
+
+#video2{
+    margin: 0;
+    padding: 0;
+}
+#lolololol img{
+    margin-right: 5px;
+}
+#moa {
+    
+    width: 200px;
+    
+}
+#moi{
+    top: 10px;
+    
+}
+#mos {
+    width: 200px;
+    height: 50px;
+}
+
+
+#momo{
+    width: 200px;
+    height: 50px;
+    
+}
+
+#moma{
+    width: 200px;
+    height: 50px;
+    margin-left: 50px;
+}
+#momn{
+    width: 200px;
+    height: 50px;
+    margin-left: 30px;
+}
+#moi {
+width: 200px;
+}
+#sss{
+    display: flex;
+}
+#www{
+    height: 21px;
+}
